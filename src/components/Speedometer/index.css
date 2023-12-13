@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.speed-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #07080c;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speed-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-style: italic;
+}
+
+.speed-image {
+  width: 900px;
+  height: 400px;
+}
+
+.speed-limit {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+}
+
+.speed-desc {
+  color: #cbd5e1;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.acc-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  margin: 5px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.brake-button {
+  color: #94a3b8;
+  background-color: #07080c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border: 2px solid #94a3b8;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  margin: 5px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
